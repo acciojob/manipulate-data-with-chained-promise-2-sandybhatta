@@ -17,6 +17,6 @@ new Promise((res,rej)=>{
 	setTimeout(()=>{
 		arr1.map(item=>{
 			op.innerText=`${item*2}`
-		})
+		},2000)
 	})
 })
