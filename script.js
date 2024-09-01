@@ -5,7 +5,6 @@ let arr = [1, 2, 3, 4];
 new Promise((resolve) => {
 
     resolve(arr);
-  ;
 })
   .then((arr) => {
     // Filter even numbers after the initial array is resolved
