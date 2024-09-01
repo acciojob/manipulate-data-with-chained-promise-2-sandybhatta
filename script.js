@@ -3,9 +3,9 @@ let arr = [1, 2, 3, 4];
 
 // Initial promise that resolves after 3 seconds
 new Promise((resolve) => {
-  setTimeout(() => {
+
     resolve(arr);
-  }, 3000);
+  ;
 })
   .then((arr) => {
     // Filter even numbers after the initial array is resolved
